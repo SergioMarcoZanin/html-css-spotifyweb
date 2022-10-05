@@ -1,0 +1,27 @@
+
+main{
+    background-color: green;
+    height: 100%;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+/* UPGRADE */
+.upgrade{
+    height: 4.375rem ;
+    background-color: #141922;
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: right;
+    line-height: 4.375rem;
+    padding-right: .9375rem;
+}
+.upgrade button{
+    border: .0625rem solid white;
+    border-radius: .9375rem;
+    padding: .625rem 1.875rem;
+    background-color: #141922;
+    color: white;
+}
