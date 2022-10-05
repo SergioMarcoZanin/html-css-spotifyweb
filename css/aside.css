@@ -4,3 +4,36 @@ aside{
     height: 100%;
     flex-shrink: 0;
 }
+.logo img{
+    width: 80%;
+    padding: .9375rem 1.875rem .9375rem .9375rem;
+}
+.nav-menu{
+    padding-left: .9375rem;
+}
+.nav-menu li {
+    padding-bottom: .9375rem;
+}
+.nav-menu a{
+    color: gray;
+}
+.nav-menu h4{
+    color: white;
+    padding-bottom: .625rem;
+    padding-top: .625rem;
+}
+.home i{
+    color: white;
+}
+.home span{
+    color: white;
+}
+.add-playlist i{
+    font-size: 2.5rem;
+    padding-right: .625rem;
+}
+.add-playlist{
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
