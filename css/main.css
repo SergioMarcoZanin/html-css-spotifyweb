@@ -8,7 +8,7 @@ main{
 /* UPGRADE */
 .upgrade{
     height: 4.375rem ;
-    background-color: #141922;
+    background-color: #080B12;
     position: sticky;
     top: 0;
     right: 0;
@@ -22,6 +22,43 @@ main{
     border: .0625rem solid white;
     border-radius: .9375rem;
     padding: .625rem 1.875rem;
-    background-color: #141922;
+    background-color: #080B12;
     color: white;
+    cursor: pointer;
+}
+/* SECTION MUSIC */
+.music{
+    background-color:#141922;
+}
+.nav-music{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+.nav-music a{
+    color: gray;
+}
+.nav-music li{
+    padding: 10px;
+}
+.music h2{
+    color: white;
+    margin-top: .9375rem;
+}
+.container-music{
+    margin-left: .625rem;
+    margin-top: .9375rem;
+}
+.tracks{
+    display: flex;
+}
+.tracks img{
+    width: 180px;
+    height: 180px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.tracks h3{
+    color: white;
+    text-align: center;
 }
