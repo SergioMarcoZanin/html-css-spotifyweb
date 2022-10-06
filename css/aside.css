@@ -11,10 +11,16 @@ aside{
 .logo .only-logo{
     display: none;
     padding: .9375rem;
+    width: 60px;
+    height: 60px;
 }
 
 .nav-menu{
     padding-left: .9375rem;
+}
+.home{
+    display: flex;
+    align-items: center;
 }
 .nav-menu li {
     padding-bottom: .9375rem;
@@ -27,8 +33,10 @@ aside{
     padding-bottom: .625rem;
     padding-top: .625rem;
 }
-.home i{
-    color: white;
+.nav-menu img{
+    width: 25px;
+    height: 25px;
+    
 }
 .home span{
     color: white;
@@ -52,6 +60,12 @@ aside{
         display: block;
     }
     .logo .words-logo{
+        display: none;
+    }
+    .nav-menu img{
+        display: block;
+    }
+    .nav-menu span{
         display: none;
     }
 }
