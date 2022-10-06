@@ -1,9 +1,9 @@
 
 main{
-    background-color: #3B496C;
     height: 100%;
     overflow-y: auto;
     flex-grow: 1;
+    background-color:#141922
 }
 /* UPGRADE */
 .upgrade{
@@ -62,3 +62,9 @@ main{
     color: white;
     text-align: center;
 }
+/* RESPONSIVE MUSIC */
+@media only screen and (max-width: 1100px) {
+    .tracks {
+      flex-wrap: wrap;
+    }
+  }
