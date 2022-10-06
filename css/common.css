@@ -9,3 +9,6 @@ a{
 li{
     list-style: none;
 }
+.border-radius-50{
+    border-radius: 50%;
+}
