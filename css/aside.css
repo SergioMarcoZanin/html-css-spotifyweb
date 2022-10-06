@@ -4,10 +4,15 @@ aside{
     height: 100%;
     flex-shrink: 0;
 }
-.logo img{
+.logo .words-logo{
     width: 80%;
     padding: .9375rem 1.875rem .9375rem .9375rem;
 }
+.logo .only-logo{
+    display: none;
+    padding: .9375rem;
+}
+
 .nav-menu{
     padding-left: .9375rem;
 }
@@ -36,4 +41,17 @@ aside{
     align-items: center;
     display: flex;
     
+}
+/* RESPONSIVE ASIDE */
+
+@media only screen and (max-width: 600px) {
+    .playlist{
+        display: none;
+    }
+    .logo .only-logo{
+        display: block;
+    }
+    .logo .words-logo{
+        display: none;
+    }
 }
