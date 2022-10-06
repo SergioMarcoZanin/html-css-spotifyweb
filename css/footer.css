@@ -18,6 +18,7 @@ footer{
     width: 50%;
     height: 100%;
     border: 1px dashed red;
+    
 }
 .col-small div{
     display: block;
@@ -37,4 +38,38 @@ footer{
 }
 .title-footer div{
     color: grey;
+}
+
+.player{
+    display: flex;
+}
+.player i{
+    color: white;
+    padding: 10px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.hr-track{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.hr-big{
+  width: 250px;
+  height: 4px;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  margin-right: 15px;
+
+}
+.hr-small{
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  margin-left: 15px;
 }
