@@ -1,6 +1,7 @@
 footer{
     height: 5.625rem;
     background-color: #282828;
+    
 }
 .row{
     display: flex;
@@ -9,7 +10,6 @@ footer{
 
 .col-small{
     width: 25%;
-    border: 1px dashed red;
     height: 100%;
     display: flex;
     align-items: center;
@@ -17,8 +17,6 @@ footer{
 .col-big{
     width: 50%;
     height: 100%;
-    border: 1px dashed red;
-    
 }
 .col-small .justify-content-start div{
     display: block;
@@ -80,7 +78,7 @@ footer{
     border-radius: 15px;
     margin-right: 15px;
   
-  }
+}
 .hr-xs{
     width: 30px;
     height: 4px;
@@ -88,5 +86,6 @@ footer{
     border: none;
     border-radius: 15px;
     margin-left: 15px;
-  }
+}
  
+
