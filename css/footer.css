@@ -20,7 +20,7 @@ footer{
     border: 1px dashed red;
     
 }
-.col-small div{
+.col-small .justify-content-start div{
     display: block;
 }
 .img-footer img{
@@ -53,8 +53,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    
+    color: white; 
 }
 .hr-big{
   width: 250px;
@@ -73,3 +72,20 @@ footer{
   border-radius: 15px;
   margin-left: 15px;
 }
+.hr-medium{
+    width: 80px;
+    height: 4px;
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+    margin-right: 15px;
+  
+  }
+.hr-xs{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
+  }
